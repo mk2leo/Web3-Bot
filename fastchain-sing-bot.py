@@ -1,6 +1,6 @@
 import httpx
 import os
-
+# auth-token 登入完成.F12 找到authorization 
 # 從青龍面板中環境變量獲取 authorization token,,若本地運行請直接修改或AI修改
 auth_token = os.environ.get('FASTCHAIN_TOKEN')  # 你需要在青龍面板設置這個變量
 
